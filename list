@@ -1,0 +1,12 @@
+list=[]
+n=int(input("no of integers "))
+print("enter the integers")
+for x in range(n):
+    data=int(input())
+    list.append(data)
+print(list)    
+for i in list:
+    if i>0:
+        positive_integer=[]
+        positive_integer.append(i)
+print(positive_integer)
